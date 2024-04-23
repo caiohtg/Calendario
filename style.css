@@ -1,0 +1,98 @@
+:root {
+    --backgroundH1: rgb(255, 66, 66);
+}
+
+body {
+    background:linear-gradient(to right, #00ff6a, #3faf7b);
+}
+
+main {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 20%);
+}
+
+.container {
+    position: relative;
+}
+
+.conteudo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--backgroundH1);
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: rgba(128, 128, 128, 0.425);
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    
+}
+
+.input {
+    display: flex;
+    padding-left: 100px;
+}
+
+button {
+    background-color: var(--backgroundH1);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+button:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease-out;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+}
+
+.button {
+    padding-top: 20px;
+    padding-left: 180px;
+    
+}
+
+.butao2 {
+    margin-left: 63px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#horas {
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-size: 36px;
+}

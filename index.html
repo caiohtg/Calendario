@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+            <div class="container_title">
+                <div class="title">
+                    <h1>Calendário</h1>
+                </div>
+            </div>
+            <div class="container_p1">
+                <div class="p1">
+                    <p id="paragrafoQueVaiMudar">Olá novo usuario, como gostaria de ser chamado?</p>
+                </div>
+                <div class="input">
+                    <input type="text" name="user" id="userName" placeholder="Nome">
+                </div>
+                <div class="button">
+                    <button type="button" id="cmdSingUp" onclick="Clicar()">Cadastrar</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button type="button" id="cmdSim" style="display: none" onclick="ClicarSim()" class="butao2">Sim</button> <button type="button" id="cmdNao" style="display: none" onclick="ClicarNao()" class="butao2">Não</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p id="horas" style="display: none;"></p>
+                </div>
+            </div>
+           
+    </main>
+
+    <script src="calendario.js"></script>
+    
+</body>
+</html>
